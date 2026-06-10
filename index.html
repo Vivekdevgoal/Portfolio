@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>My Portfolio</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"/>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet"/>
+  <link href="style.css" rel="stylesheet"/>
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg fixed-top">
+    <div class="container">
+      <a class="navbar-brand fw-bold" href="#">&lt;Vivek Nilapalle/&gt;</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navMenu">
+        <ul class="navbar-nav ms-auto gap-2">
+          <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+          <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero -->
+  <section class="hero d-flex align-items-center" id="home">
+    <div class="container text-center">
+      <div class="hero-avatar mx-auto mb-4">
+        <img src="Images/Profile_pic.jpeg" alt="Profile Photo" class="rounded-circle"/>
+      </div>
+      <p class="greeting">👋 Hello, I'm</p>
+      <h1 class="hero-name">Vivek Nilapalle</h1>
+      <p class="hero-role">Aspiring Data Analyst & Machine Learning Engineer</p>
+      <p class="hero-sub">Building intelligent solutions through Python, SQL, Data Analytics, Machine Learning, and Django.
+        Currently learning Machine Learning and working toward Deep Learning & AI development.</p>
+      <div class="mt-4 d-flex justify-content-center gap-3 flex-wrap">
+        <a href="#projects" class="btn btn-primary-custom">View My Work</a>
+        <a href="#contact" class="btn btn-outline-custom">Hire Me</a>
+      </div>
+      <div class="social-icons mt-4">
+        <a href="https://github.com/Vivekdevgoal" target="_blank"><i class="bi bi-github"></i></a>
+            <a href="https://linkedin.com/in/viveknilapalle" target="_blank"><i class="bi bi-linkedin"></i></a>
+        <a href="https://twitter.com/yourusername" target="_blank"><i class="bi bi-twitter-x"></i></a>
+        <a href="nilapallevivek@gmail.com"><i class="bi bi-envelope-fill"></i></a>
+      </div>
+    </div>
+  </section>
+
+  <!-- About -->
+ <section class="section-pad" id="about">
+    <div class="container">
+        <h2 class="section-title">About <span>Me</span></h2>
+
+        <div class="row align-items-center g-5">
+
+            <!-- Image Column -->
+            <div class="col-md-5 text-center">
+                <img src="Images/port_banner.png"
+                     alt="About"
+                     class="about-img img-fluid">
+            </div>
+
+            <!-- Content Column -->
+            <div class="col-md-7">
+                <h4 class="mb-3">
+                    Hi, I'm <span class="highlight">Vivek Nilapalle</span> 👋
+                </h4>
+
+                <p class="text-muted">
+                    I am a Computer Science student passionate about Data Analytics,
+                    Machine Learning, and Backend Development. My learning journey
+                    began with Python programming and has expanded into SQL,
+                    Power BI, Django, and Machine Learning.
+                </p>
+
+                <p class="text-muted">
+                    I enjoy solving real-world problems using data and building
+                    practical applications. I believe in learning by building,
+                    which is why I continuously create projects that help strengthen
+                    both my technical and analytical skills.
+                </p>
+
+                <p class="text-muted">
+                    Currently, I am focusing on Machine Learning and preparing
+                    to dive deeper into Deep Learning, AI applications, and
+                    advanced analytics.
+                </p>
+
+                <div class="row mt-4">
+                    <div class="col-sm-6">
+                        <p>
+                            <i class="bi bi-geo-alt-fill me-2 text-primary"></i>
+                            <strong>Location:</strong> Latur, India 
+                        </p>
+
+                        <p>
+                            <i class="bi bi-mortarboard-fill me-2 text-primary"></i>
+                            <strong>Degree:</strong> B.Tech CS
+                        </p>
+                    </div>
+
+                    <div class="col-sm-6">
+                        <p>
+                            <i class="bi bi-envelope-fill me-2 text-primary"></i>
+                            <strong>Email:</strong> nilapallevivek@gmail.com
+                        </p>
+
+                        <p>
+                            <i class="bi bi-phone-fill me-2 text-primary"></i>
+                            <strong>Phone:</strong> +91 90221 37035
+                        </p>
+                    </div>
+                </div>
+
+                <a href="Vivek_Nilapalle_2026.pdf"
+                   download
+                   class="btn btn-primary-custom mt-3">
+                    <i class="bi bi-download me-2"></i>
+                    Download Resume
+                </a>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+  <!-- Skills -->
+  <section class="section-pad bg-alt" id="skills">
+    <div class="container">
+      <h2 class="section-title">My <span>Skills</span></h2>
+      <div class="row g-4 mt-2">
+          <div class="col-6 col-md-3">
+              <div class="skill-card">
+                  <i class="bi bi-filetype-py"></i>
+                  <p>Python</p>
+                  <div class="skill-bar"><div style="width:95%"></div></div>
+              </div>
+          </div>
+
+          <div class="col-6 col-md-3">
+              <div class="skill-card">
+                  <i class="bi bi-database-fill"></i>
+                  <p>SQL</p>
+                  <div class="skill-bar"><div style="width:95%"></div></div>
+              </div>
+          </div>
+
+          <div class="col-6 col-md-3">
+              <div class="skill-card">
+                  <i class="bi bi-cpu-fill"></i>
+                  <p>Machine Learning</p>
+                  <div class="skill-bar"><div style="width:20%"></div></div>
+              </div>
+          </div>
+
+          <div class="col-6 col-md-3">
+              <div class="skill-card">
+                  <i class="bi bi-file-earmark-excel-fill"></i>
+                  <p>Excel</p>
+                  <div class="skill-bar"><div style="width:85%"></div></div>
+              </div>
+          </div>
+
+          <div class="col-6 col-md-3">
+              <div class="skill-card">
+                  <i class="bi bi-bar-chart-fill"></i>
+                  <p>Power BI</p>
+                  <div class="skill-bar"><div style="width:75%"></div></div>
+              </div>
+          </div>
+
+          <div class="col-6 col-md-3">
+              <div class="skill-card">
+                  <i class="bi bi-server"></i>
+                  <p>Django</p>
+                  <div class="skill-bar"><div style="width:85%"></div></div>
+              </div>
+          </div>
+
+          <div class="col-6 col-md-3">
+              <div class="skill-card">
+                  <i class="bi bi-graph-up-arrow"></i>
+                  <p>Data Analytics</p>
+                  <div class="skill-bar"><div style="width:80%"></div></div>
+              </div>
+          </div>
+
+          <div class="col-6 col-md-3">
+              <div class="skill-card">
+                  <i class="bi bi-git"></i>
+                  <p>Git & GitHub</p>
+                  <div class="skill-bar"><div style="width:75%"></div></div>
+              </div>
+          </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects -->
+  <section class="section-pad" id="projects">
+    <div class="container">
+      <h2 class="section-title">My <span>Projects</span></h2>
+      <div class="row g-4 mt-2">
+
+        <div class="col-md-4">
+          <div class="project-card">
+            <div class="project-img">
+              <img src="Images/Zepto.png" alt="Project 1"/>
+              <div class="project-overlay">
+                <a href="#" class="btn btn-sm btn-light me-2"><i class="bi bi-eye"></i> Live</a>
+                <a href="#" class="btn btn-sm btn-outline-light"><i class="bi bi-github"></i> Code</a>
+              </div>
+            </div>
+            <div class="project-body">
+              <h5>Zepto Product Analytics</h5>
+
+                <p class="text-muted small">
+                Performed SQL-based business analysis on Zepto's product inventory
+                dataset. Analyzed pricing, discounts, inventory status,
+                stock availability, and category performance to generate
+                business insights.
+                </p>
+
+                <div class="tags">
+                <span>SQL</span>
+                <span>MySQL</span>
+                <span>Data Analytics</span>
+                </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="project-card">
+            <div class="project-img">
+              <img src="Images/Django.png" alt="Project 2"/>
+              <div class="project-overlay">
+                <a href="#" class="btn btn-sm btn-light me-2"><i class="bi bi-eye"></i> Live</a>
+                <a href="#" class="btn btn-sm btn-outline-light"><i class="bi bi-github"></i> Code</a>
+              </div>
+            </div>
+            <div class="project-body">
+              <h5>Multipurpose Django Application</h5>
+
+              <p class="text-muted small">
+              A Django-based web application featuring a chatbot,
+              weather application, and task manager. Built using Django,
+              Bootstrap, APIs, HTML, CSS, and JavaScript.
+              </p>
+
+              <div class="tags">
+              <span>Django</span>
+              <span>Python</span>
+              <span>Bootstrap</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="project-card">
+            <div class="project-img">
+              <img src="Images/Dashboard.png" alt="Project 3"/>
+              <div class="project-overlay">
+                <a href="#" class="btn btn-sm btn-light me-2"><i class="bi bi-eye"></i> Live</a>
+                <a href="#" class="btn btn-sm btn-outline-light"><i class="bi bi-github"></i> Code</a>
+              </div>
+            </div>
+            <div class="project-body">
+             <h5>Spotify Data Analytics Dashboard</h5>
+
+              <p class="text-muted small">
+              Interactive Power BI dashboard analyzing Spotify track data,
+              popularity metrics, explicit content trends,
+              energy levels, and artist performance.
+              </p>
+
+              <div class="tags">
+              <span>Power BI</span>
+              <span>Excel</span>
+              <span>Analytics</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Stats -->
+  <section class="stats-section">
+    <div class="container">
+      <div class="row text-center g-4">
+        <div class="col-6 col-md-3">
+          <h2 class="stat-num">3+</h2>
+          <p>Projects Completed</p>
+        </div>
+
+        <div class="col-6 col-md-3">
+          <h2 class="stat-num">10+</h2>
+          <p>Technologies Learned</p>
+        </div>
+
+        <div class="col-6 col-md-3">
+          <h2 class="stat-num">5+</h2>
+         <p>Certifications Earned</p>
+        </div>
+
+        <div class="col-6 col-md-3">
+          <h2 class="stat-num">100+</h2>
+          <p>Hours of Learning</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section class="section-pad" id="contact">
+    <div class="container">
+      <h2 class="section-title">Get In <span>Touch</span></h2>
+      <div class="row g-5 mt-1">
+        <div class="col-md-5">
+          <h5 class="mb-3">Let's Work Together</h5>
+          <p class="text-muted">Have a project in mind or just want to say hi? My inbox is always open!</p>
+          <ul class="contact-list mt-4">
+            <li><i class="bi bi-geo-alt-fill"></i> Latur, India</li>
+            <li><i class="bi bi-envelope-fill"></i> nilapallevivek@gmail.com</li>
+            <li><i class="bi bi-phone-fill"></i> +91 90221 37035</li>
+          </ul>
+          <div class="social-icons mt-4">
+            <a href="https://github.com/Vivekdevgoal" target="_blank"><i class="bi bi-github"></i></a>
+            <a href="https://linkedin.com/in/viveknilapalle" target="_blank"><i class="bi bi-linkedin"></i></a>
+            <a href="https://twitter.com/yourusername" target="_blank"><i class="bi bi-twitter-x"></i></a>
+          </div>
+        </div>
+        <div class="col-md-7">
+          <form class="contact-form">
+            <div class="row g-3">
+              <div class="col-md-6">
+                <input type="text" class="form-control" placeholder="Your Name"/>
+              </div>
+              <div class="col-md-6">
+                <input type="email" class="form-control" placeholder="Your Email"/>
+              </div>
+              <div class="col-12">
+                <input type="text" class="form-control" placeholder="Subject"/>
+              </div>
+              <div class="col-12">
+                <textarea class="form-control" rows="5" placeholder="Your Message..."></textarea>
+              </div>
+              <div class="col-12">
+                <button type="submit" class="btn btn-primary-custom w-100">
+                  <i class="bi bi-send-fill me-2"></i>Send Message
+                </button>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer text-center">
+    <p>Designed &amp; Built by <span class="highlight">Vivek Nilapalle</span> &copy; 2026</p>
+  </footer>
+
+  <a href="#home" class="back-to-top"><i class="bi bi-arrow-up"></i></a>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
